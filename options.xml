@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<options>
+	<mode>normal</mode>
+	<useMap>all</useMap>
+	<numOfMaps>3</numOfMaps>
+	<repeat>20</repeat>
+	<roundsPerBattle>3</roundsPerBattle>
+	<visible>true</visible>
+
+	<robotName>StudentRobot*</robotName>
+	<teamName>StudentTeam*</teamName>
+
+	<robocode>./</robocode>
+
+	<turnTimeLimit>0</turnTimeLimit>
+	
+	<badEventWarning>false</badEventWarning>
+	<fatalEventWarning>true</fatalEventWarning>
+	<roundStatistics>true</roundStatistics>
+
+	<reserved>
+		<penaltyFactor>0.98</penaltyFactor>
+		<penaltyInterval>10</penaltyInterval>
+		<bonusKillEnemy>1.2</bonusKillEnemy>	
+
+		<partialFallCoverage>0.1</partialFallCoverage>
+		<firstTurnScale>3</firstTurnScale>
+		<maxTolerance>5</maxTolerance>
+		<toleranceScale>2</toleranceScale>
+		<timeLimitConstant>15000</timeLimitConstant>
+		<payloadSize>1000</payloadSize>
+	</reserved>
+</options>
